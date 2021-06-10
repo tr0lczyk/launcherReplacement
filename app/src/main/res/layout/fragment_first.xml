@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+  <TextView
+      android:id="@+id/firstFragmentText"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="waiting for content"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      />
+
+  <com.google.android.material.button.MaterialButton
+      android:id="@+id/openSecondFragment"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:textAllCaps="false"
+      android:text="Open fragment and setFragmentResult"
+      app:layout_constraintEnd_toEndOf="@+id/firstFragmentText"
+      app:layout_constraintStart_toStartOf="@+id/firstFragmentText"
+      app:layout_constraintTop_toBottomOf="@+id/firstFragmentText"
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Check out Activity Result with fragments"
+      app:layout_constraintBottom_toTopOf="@id/clickForFragmentResult"
+      app:layout_constraintStart_toStartOf="@id/clickForFragmentResult"
+      app:layout_constraintEnd_toEndOf="@id/clickForFragmentResult"
+      android:layout_marginBottom="20dp"/>
+
+  <com.google.android.material.button.MaterialButton
+      android:id="@+id/clickForFragmentResult"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="24dp"
+      android:textAllCaps="false"
+      android:text="Click for Activity Result API to fragment"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
