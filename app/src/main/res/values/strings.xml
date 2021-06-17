@@ -3,8 +3,10 @@
   <string name="permission">Request for permission</string>
   <string name="click_for_result">Click for Activity Result API result</string>
   <string name="initial_text">Waiting for Activity Result API content</string>
+  <string name="contract_initial_text">Waiting for Activity Result API contract content</string>
   <string name="permission_result_granted">Permission granted</string>
   <string name="permission_result_denied">Permission denied</string>
   <string name="return_result_success">Click for success</string>
   <string name="return_result_failure">Click for failure</string>
+  <string name="click_for_contract_result">Click for contract result</string>
 </resources>

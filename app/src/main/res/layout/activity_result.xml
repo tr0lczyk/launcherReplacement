@@ -26,4 +26,14 @@
       app:layout_constraintTop_toBottomOf="@id/successResultButton"
       app:layout_constraintEnd_toEndOf="parent"/>
 
+  <com.google.android.material.button.MaterialButton
+      android:id="@+id/contractResultButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAllCaps="false"
+      android:text="@string/click_for_contract_result"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/failureResultButton"
+      app:layout_constraintEnd_toEndOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

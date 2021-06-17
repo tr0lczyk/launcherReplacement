@@ -16,6 +16,9 @@ class MainViewModel @Inject constructor(
   val permissionStatus =
     MutableLiveData(context.getString(string.initial_text))
 
+  val contractStatus =
+    MutableLiveData(context.getString(string.contract_initial_text))
+
   fun onPermissionsResult(result: Boolean) {
     permissionStatus.value =
       if (result) context.getString(string.permission_result_granted) else context.getString(
